@@ -5,10 +5,12 @@ void setup() {
 }
 
 void loop() {
-    for(int i = 2; i <= 13; i++) {
-        digitalWrite(i, HIGH);
-        delay(1000);
-        digitalWrite(i, LOW);
-        delay(1000);
-    }
+    digitalWrite(4, HIGH);
+    delay(1000);
+    digitalWrite(4, LOW);
+
+    digitalWrite(13, HIGH);
+    delay(100);
+    digitalWrite(13, LOW);
+    delay(100);
 }
